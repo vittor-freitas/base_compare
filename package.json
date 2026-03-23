@@ -1,0 +1,16 @@
+{
+  "name": "mirror-test",
+  "version": "1.0.0",
+  "description": "Playwright mirror tester",
+  "scripts": {
+    "mirror": "ts-node src/mirror-runner.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.0.0",
+    "@types/sharp": "^0.31.1",
+    "playwright": "^1.44.0",
+    "sharp": "^0.34.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
